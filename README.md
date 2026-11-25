@@ -63,6 +63,8 @@ From the unpacked kit directory:
 node cli/makefun.mjs grade-local --kit . --bot /path/to/this/repo --driver process
 ```
 
+On the kit's dev window the bot graded at a net PnL of −0.6129 SOL, with the guardrails met: 332 qualifying coins and a maximum drawdown of 6.5%.
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
