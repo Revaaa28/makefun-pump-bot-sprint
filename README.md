@@ -32,6 +32,7 @@ Early-entry sniping with a rug filter — buy at a coin's birth, leave fast:
   shape is built to clear the 20-coin minimum bar while keeping each
   position small (0.1 SOL against 10 SOL of paper capital, at most 5 open
   positions) so drawdown stays bounded.
+- **Determinism:** no clock, no environment reads, no unseeded randomness — the two graded executions agree byte for byte.
 
 The final score comes from a fresh live 6-hour window that does not exist
 yet, so the strategy is deliberately simple and robust rather than tuned

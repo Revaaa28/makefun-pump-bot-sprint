@@ -39,7 +39,8 @@ LAMPORTS_PER_SOL = makefun_bot.LAMPORTS_PER_SOL
 # rationale): enter newborn coins only — within AGE_MAX_SLOTS of the
 # create, real reserves between MIN_REAL_SOL and MAX_REAL_SOL, at most
 # MAX_BUYERS distinct buyers so far, and never after the creator sells.
-# Stake is STAKE_LAMPORTS per coin (one buy per coin). Exit on
+# Stake is STAKE_LAMPORTS per coin (one buy per coin, 0.1 SOL, capped
+# by the 1% reserve rule). Exit on
 # TAKE_PROFIT, STOP_LOSS, MAX_HOLD_SLOTS / MAX_HOLD_TRADES, or the
 # moment the creator sells. Slippage is wide open on both sides.
 STAKE_LAMPORTS = LAMPORTS_PER_SOL // 10          # 0.1 SOL per coin
